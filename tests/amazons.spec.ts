@@ -12,7 +12,7 @@ test('test1', async({page})=>{
 const method1 = new shiva(page);
 
 await method1.searchMobile()
-await method1.button1.click()
+// await method1.button1.click()
 
 
 

@@ -10,6 +10,7 @@ test('api test', async({request})=>{
     expect(text1).toContain('George')
 
    // expect(response).
+   //expect
 })
 test ('api 2', async({request})=>{
     const responce2 = await request.get('https://reqres.in/api/users/2');
